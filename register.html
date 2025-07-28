@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Learnify - Daftar</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <h1>Learnify</h1>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="courses.html">Kursus</a></li>
+        <li><a href="about.html">Tentang</a></li>
+        <li><a href="register.html">Daftar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Form Pendaftaran</h2>
+    <form onsubmit="return validateForm()">
+      <input type="text" id="nama" placeholder="Nama Lengkap" required />
+      <input type="email" id="email" placeholder="Email Aktif" required />
+      <textarea id="pesan" placeholder="Apa yang ingin kamu pelajari?" required></textarea>
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Learnify.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
